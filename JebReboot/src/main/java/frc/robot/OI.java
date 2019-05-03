@@ -17,4 +17,12 @@ public class OI {
         return Driver.getRawAxis(0);
     }
 
+    public static double getArmTurn () {
+        return Operator.getRawAxis(0);
+    }
+
+    public static boolean FrisbeeShoot () {
+        return Operator.getAButton();
+    }
+
 }
