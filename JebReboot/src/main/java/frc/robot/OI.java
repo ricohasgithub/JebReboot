@@ -13,7 +13,7 @@ public class OI {
         return Driver.getTriggerAxis(Hand.kRight) - Driver.getTriggerAxis(Hand.kRight);
     }
 
-    public static double getDriverTurn () {
+    public static double getDriverSteer () {
         return Driver.getRawAxis(0);
     }
 
