@@ -16,6 +16,7 @@ public class ArmCommand extends Command {
   }
 
   protected void execute() {
+    Robot.ArmSubsystem.MoveArmVariable(OI.getArmTurn());
   }
 
   protected boolean isFinished() {
